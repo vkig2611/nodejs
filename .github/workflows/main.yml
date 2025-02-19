@@ -20,8 +20,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t your-dockerhub-username/your-repo-name:latest .
+          docker build -t vk2615/your-repo-name:latest .
 
       - name: Push Docker image
         run: |
-          docker push your-dockerhub-username/your-repo-name:latest
+          docker push vk2615/your-repo-name:latest
